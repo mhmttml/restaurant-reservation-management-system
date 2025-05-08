@@ -28,7 +28,7 @@ The project is modeled around a fictional restaurant called **The Beatles**, kno
 - Pick-up service logic and scheduling
 
 ## 📁 Folder Structure
-restaurant-reservation-system/
+restaurant-reservation-management-system/
 ├── docs/
 │   ├── Requirement_Document.pdf
 │   ├── System_Design_Document.pdf
@@ -40,12 +40,13 @@ restaurant-reservation-system/
 │   ├── DQL.sql
 │   └── DCL.sql
 ├── presentation/
-│   └── The_Beatles_Presentation.pdf
-│   └── ER_Diagram.png
+│   ├── The_Beatles_Presentation.pdf
 ├── images/
-│   └── system_overview.png
+│   └── System_Workflow_Overview.png
+│   └── ER_Diagram.png
 ├── README.md
 └── LICENSE
+
 
 ## 🧠 Database Details
 - Relational database schema designed using ER diagram
