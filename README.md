@@ -1,34 +1,65 @@
-# 🍽️ Restaurant Reservation System - The Beatles
+# 🍽️ Restaurant Reservation System - *The Beatles*
 
-This project is a database-backed restaurant reservation system developed as part of a university-level DBMS course. It includes a comprehensive system design, entity relationships, and SQL operations to simulate a real-world restaurant experience — including an optional **pick-up service**.
+This is a database-driven restaurant reservation system developed as part of a university-level DBMS course project. It includes full documentation, ER diagrams, SQL scripts, and a system designed to simulate real-life operations — including a unique **pick-up service** feature.
+
+---
 
 ## 📌 Table of Contents
-- [Project Overview](#project-overview)
-- [System Features](#system-features)
-- [Folder Structure](#folder-structure)
+
+- [Overview](#overview)
+- [Features](#features)
+- [Repository Structure](#repository-structure)
 - [Database Details](#database-details)
 - [Deployment](#deployment)
+- [Screenshots](#screenshots)
 
+---
 
-## 🚀 Project Overview
+## 🚀 Overview
 
-The system enables:
-- Customers to make reservations
-- Staff to manage availability and orders
-- Admins to handle user roles, queries, and data control
-- Optional pick-up service with scheduled pickup times
+The project simulates a fully functional restaurant database system that supports:
+- Table reservations
+- Order tracking
+- Admin-level SQL operations
+- Role-based access control
+- Scheduled **pick-up orders**
 
-The project is modeled around a fictional restaurant called **The Beatles**, known for its harmony in both music and management 🍴🎶.
+This system was designed around a fictional restaurant called **The Beatles**, symbolizing harmony between user roles and system flow 🎶.
 
-## ✅ System Features
-- Table reservation
-- Order management
-- Role-based user operations (Admin / Staff / Customer)
-- SQL queries supporting DDL, DML, DQL, DCL
-- Pick-up service logic and scheduling
+---
 
-## 📁 Folder Structure
-```bash restaurant-reservation-system/ ├── docs/ # Project documents and system design files │ ├── Requirement_Document.pdf # Functional and non-functional requirements │ ├── System_Design_Document.pdf # System architecture, flowcharts, and modules │ ├── Database_Design_Document.pdf # DB schema, table design, normalization │ ├── Deployment_Plan.pdf # Setup instructions and deployment steps ├── scripts/ # SQL scripts for database operations │ ├── DDL.sql # Create tables, schemas, constraints │ ├── DML.sql # Insert and update sample data │ ├── DQL.sql # Queries for data retrieval │ └── DCL.sql # User permissions and security ├── presentation/ # Presentation and visuals used in project │ ├── The_Beatles_Presentation.pdf # Main project presentation │ └── ER_Diagram.png # Visual representation of ER model ├── images/ # Optional screenshots or UI mockups │ └── system_overview.png # General system workflow diagram ├── README.md # Project overview and instructions ├── LICENSE # License information for open-source use ```
+## ✅ Features
+
+- Customer reservation and pick-up scheduling
+- Staff table and order management
+- Admin access to advanced SQL controls (DDL, DML, DQL, DCL)
+- Relational database structure based on normalized design
+- Comprehensive documentation and deployment support
+
+---
+
+## 📁 Repository Structure
+
+```bash
+restaurant-reservation-system/
+├── docs/                               # Project documentation files
+│   ├── Requirement_Document.pdf        # Functional and non-functional requirements
+│   ├── System_Design_Document.pdf      # High-level architecture and flow
+│   ├── Database_Design_Document.pdf    # Tables, relationships, and normalization
+│   ├── Deployment_Plan.pdf             # Setup and deployment guide
+├── scripts/                            # SQL scripts for DB operations
+│   ├── DDL.sql                         # Schema creation (tables, constraints)
+│   ├── DML.sql                         # Sample data insertion
+│   ├── DQL.sql                         # Query operations for data retrieval
+│   └── DCL.sql                         # User roles and access control
+├── presentation/                       # Project presentation file
+│   └── The_Beatles_Presentation.pdf    # Slides used in project demo
+├── images/                             # Diagrams and visual assets
+│   ├── ER_Diagram.png                  # Entity Relationship Diagram
+│   └── System_Workflow_Overview.png   # Visual overview of system flow
+├── README.md                           # Project summary and usage instructions
+└── LICENSE                             # License information
+```
 
 
 ## 🧠 Database Details
