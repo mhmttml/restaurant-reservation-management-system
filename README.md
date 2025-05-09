@@ -22,7 +22,7 @@ The project simulates a fully functional restaurant database system that support
 - Order tracking
 - Admin-level SQL operations
 - Role-based access control
-- Scheduled **pick-up orders**
+- Scheduled **pick-up service**
 
 This system was designed around a fictional restaurant called **The Beatles**, symbolizing harmony between user roles and system flow 🎶.
 
